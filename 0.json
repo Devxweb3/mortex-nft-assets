@@ -1,8 +1,8 @@
 {
   "name": "Mortex",
-  "symbol": "MRTX",
+  "symbol": "MORTEX",
   "description": "Early access Mortex collectible minted on Solana. Own a piece of the meme movement and unlock future perks.",
-  "image": "0.jpg",
+  "image": "https://raw.githubusercontent.com/Devxweb3/mortex-nft-assets/refs/heads/main/0.jpg",
   "attributes": [
     { "trait_type": "Edition", "value": "Mass Meme Distribution" },
     { "trait_type": "Max per Wallet", "value": "3" },
@@ -10,7 +10,12 @@
     { "trait_type": "Supply", "value": "500" }
   ],
   "properties": {
-    "files": [{ "uri": "0.jpg", "type": "image/jpg" }],
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/Devxweb3/mortex-nft-assets/refs/heads/main/0.jpg",
+        "type": "image/jpg"
+      }
+    ],
     "category": "image"
   }
 }
